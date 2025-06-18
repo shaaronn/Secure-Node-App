@@ -2,8 +2,6 @@
 
 This project demonstrates a secure development lifecycle using a Node.js web application, integrated with OWASP ZAP for automated security testing in a CI/CD pipeline.
 
----
-
 ## 📚 Table of Contents
 - [🚀 Project Overview](#-project-overview)
 - [🧪 ZAP Security Scan Summary](#-zap-security-scan-summary)
@@ -13,7 +11,6 @@ This project demonstrates a secure development lifecycle using a Node.js web app
 - [📘 References](#-references)
 - [🛡️ License](#-license)
 
----
 
 ## 🚀 Project Overview
 
@@ -22,7 +19,6 @@ This project demonstrates a secure development lifecycle using a Node.js web app
 - **CI/CD**: GitHub Actions  
 - **Containerization**: Docker (ZAP scan run locally via Docker)
 
----
 
 ## 🧪 ZAP Security Scan Summary
 
@@ -44,7 +40,6 @@ This project demonstrates a secure development lifecycle using a Node.js web app
 | Content Security Policy Missing  | XSS risk      | Basic CSP added |
 | Permissions Policy Header Missing| Feature abuse | Permissions header added |
 
----
 
 ## 📂 Screenshots
 
@@ -57,13 +52,11 @@ This project demonstrates a secure development lifecycle using a Node.js web app
 ### 🔸 Fix: Security Headers in Code
 ![Header Fixes](screenshots/header-fixes.png)
 
----
 
 ## 📄 Full Scan Report
 
 View the full HTML scan report here: [zap-report.html](./zap-report.html)
 
----
 
 ## 📌 How to Run Locally with Docker
 
@@ -90,7 +83,7 @@ This will:
 - Generate zap-report.html with detailed security findings
 
 📘 References
-- OWASP ZAP Project
-- OWASP ZAP GitHub Action
-- OWASP Secure Headers Guide
-- GitHub Actions Documentation
+- [OWASP ZAP Project](https://www.zaproxy.org/)
+- [OWASP ZAP GitHub Action](https://github.com/zaproxy/action-baseline)
+- [OWASP Secure Headers Guide](https://owasp.org/www-project-secure-headers/)
+- [GitHub Actions Documentation](https://docs.github.com/en/actions)
