@@ -56,6 +56,7 @@ This project demonstrates a secure development lifecycle using a Node.js web app
 ## 📄 Full Scan Report
 
 View the full HTML scan report here: [zap-report.html](./zap-report.html)
+View the full scan report here in PDF: [zap-report.pdf](./zap-report.pdf)
 
 
 ## 📌 How to Run Locally with Docker
