@@ -83,13 +83,13 @@ This will:
 - Scan your running app
 - Generate zap-report.html with detailed security findings
 
-##📘 References
+## 📘 References
 - [OWASP ZAP Project](https://www.zaproxy.org/)
 - [OWASP ZAP GitHub Action](https://github.com/zaproxy/action-baseline)
 - [OWASP Secure Headers Guide](https://owasp.org/www-project-secure-headers/)
 - [GitHub Actions Documentation](https://docs.github.com/en/actions)
 
-##🛡️ License
+## 🛡️ License
 
 This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for full details.
 
