@@ -30,14 +30,3 @@ app.get('/dashboard', (req, res) => {
 app.listen(port, () => {
   console.log(`App listening at http://localhost:${port}`);
 });
-
-app.use((req, res, next) => {
-  res.setHeader("X-Frame-Options", "DENY");
-  res.setHeader("X-Content-Type-Options", "nosniff");
-  res.setHeader("Permissions-Policy", "geolocation=()");
-  res.setHeader("Cache-Control", "no-store");
-  res.setHeader("Content-Security-Policy", "default-src 'self'");
-  next();
-});
-
-app.disable("x-powered-by");
